@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../accset/logo-min.png";
 import "../css/header.css";
 import imdg from "../accset/pp.png";
 import imdga from "../accset/ppa.png";
@@ -86,7 +85,7 @@ export default (props) => {
                   }}
                 >
                   <b class="row">
-                    <a href="" class="TheA">
+                    <a href="/" class="TheA">
                       <div class="row">
                         <div
                           class="col-1"
@@ -94,7 +93,7 @@ export default (props) => {
                         >
                           <FontAwesomeIcon
                             icon={faCheckCircle}
-                            size="x"
+                            size="1x"
                             color="white"
                           />
                         </div>
@@ -124,26 +123,26 @@ export default (props) => {
                   style={{ borderRadius: 200, color: "white" }}
                 >
                   <b>
-                    <a href="" class="TheA">
+                    <a href="/" class="TheA">
                       <FontAwesomeIcon
                         icon={faClipboardCheck}
-                        size="x"
+                        size="1x"
                         color="white"
                         className="flex"
                       />{" "}
                       Add to Bookmark &ensp;
                     </a>
-                    <a href="" class="TheA">
+                    <a href="/" class="TheA">
                       <FontAwesomeIcon
                         icon={faUnlockKeyhole}
-                        size="x"
+                        size="1x"
                         color="white"
                         className="flex"
                       />{" "}
                       parasol.finance &ensp;
                     </a>
                     <a
-                      href=""
+                      href="/"
                       class="TheAB"
                       style={{
                         borderTopLeftRadius: 200,
@@ -155,7 +154,7 @@ export default (props) => {
                     >
                       <FontAwesomeIcon
                         icon={faWindows}
-                        size="x"
+                        size="1x"
                         color="white"
                         className="flex"
                       />{" "}
@@ -163,7 +162,7 @@ export default (props) => {
                     </a>
                     &nbsp;
                     <a
-                      href=""
+                      href="/"
                       class="TheAB"
                       style={{
                         borderTopRightRadius: 200,
@@ -174,7 +173,7 @@ export default (props) => {
                     >
                       <FontAwesomeIcon
                         icon={faApple}
-                        size="x"
+                        size="1x"
                         color="white"
                         className="flex"
                       />{" "}
@@ -190,10 +189,10 @@ export default (props) => {
                   style={{ borderRadius: 200, color: "white" }}
                 >
                   <b>
-                    <a href="" class="TheA">
+                    <a href="/" class="TheA">
                       <FontAwesomeIcon
                         icon={faPaperPlane}
-                        size="x"
+                        size="1x"
                         color="white"
                         className="flex"
                       />{" "}
@@ -224,7 +223,6 @@ export default (props) => {
               <img
                 src="https://parasol.finance/_next/static/media/parasol-logo-inverted-rgb.b4c85d6b.svg"
                 alt="Northern Lights"
-                paddingLeft={0}
               />
             </div>
 
@@ -492,7 +490,6 @@ export default (props) => {
                           More
                         </DropdownToggle>
                         <DropdownMenu
-                          right
                           style={{
                             backgroundColor: "#221736",
                             borderRadius: 20,
@@ -793,24 +790,22 @@ export default (props) => {
                     tag="h5"
                     style={{ paddingTop: 10 }}
                   >
+                    {" "}
                     MOTS Game is a P2E and NFT mining game developed on the
                     Solana network.
                   </CardSubtitle>
 
-                  <CardText style={{ paddingTop: 20, paddingBottom: 20 }}>
-                    <p>
-                      Token
-                      Price...................................................$0.007USDC
-                    </p>
-                    <p>
-                      {" "}
-                      IDO Start
-                      Date....................................................5/5/2022{" "}
-                    </p>
-                    <p>
-                      IDO End
-                      Date...................................................9/5/2022
-                    </p>
+                  <CardText style={{ paddingTop: 20 }}>
+                    Token
+                    Price...................................................$0.007USDC
+                  </CardText>
+                  <CardText>
+                    IDO Start
+                    Date....................................................5/5/2022
+                  </CardText>
+                  <CardText>
+                    IDO End
+                    Date...................................................9/5/2022
                   </CardText>
                   <Button
                     style={{
@@ -869,20 +864,17 @@ export default (props) => {
                     Solana network.
                   </CardSubtitle>
 
-                  <CardText style={{ paddingTop: 20, paddingBottom: 20 }}>
-                    <p>
-                      Token
-                      Price...................................................$0.007USDC
-                    </p>
-                    <p>
-                      {" "}
-                      IDO Start
-                      Date....................................................5/5/2022{" "}
-                    </p>
-                    <p>
-                      IDO End
-                      Date...................................................9/5/2022
-                    </p>
+                  <CardText style={{ paddingTop: 20 }}>
+                    Token
+                    Price...................................................$0.007USDC
+                  </CardText>
+                  <CardText>
+                    IDO Start
+                    Date....................................................5/5/2022
+                  </CardText>
+                  <CardText>
+                    IDO End
+                    Date...................................................9/5/2022
                   </CardText>
                   <Button
                     style={{
@@ -941,21 +933,19 @@ export default (props) => {
                     Solana network.
                   </CardSubtitle>
 
-                  <CardText style={{ paddingTop: 20, paddingBottom: 20 }}>
-                    <p>
-                      Token
-                      Price...................................................$0.007USDC
-                    </p>
-                    <p>
-                      {" "}
-                      IDO Start
-                      Date....................................................5/5/2022{" "}
-                    </p>
-                    <p>
-                      IDO End
-                      Date...................................................9/5/2022
-                    </p>
+                  <CardText style={{ paddingTop: 20 }}>
+                    Token
+                    Price...................................................$0.007USDC
                   </CardText>
+                  <CardText>
+                    IDO Start
+                    Date....................................................5/5/2022
+                  </CardText>
+                  <CardText>
+                    IDO End
+                    Date...................................................9/5/2022
+                  </CardText>
+
                   <Button
                     style={{
                       width: "55%",
@@ -1071,10 +1061,12 @@ export default (props) => {
 
           <div class="row" style={{ marginTop: 50, paddingBottom: 100 }}>
             <div class="col-6 " style={{ textAlign: "justify" }}>
-              Copyright © 2022 Parasol Finance. All rights reserved.
+              <p>Copyright © 2022 Parasol Finance. All rights reserved.</p>
             </div>
             <div class="col-6 " style={{ textAlign: "end" }}>
-              Build with in Europe | Official GitHub | Crafted by Clint ⚡️
+              <p>
+                Build with in Europe | Official GitHub | Crafted by Clint ⚡️
+              </p>
             </div>
           </div>
         </div>
